@@ -72,6 +72,7 @@
 				C0C683921C2CBAE40002157B /* Sources */,
 				C0C683931C2CBAE40002157B /* Frameworks */,
 				C0C683941C2CBAE40002157B /* CopyFiles */,
+				C0C683A01C2DE9760002157B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -112,6 +113,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C683A01C2DE9760002157B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf /Users/armen/Desktop/testAudioOutput.aiff";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0C683921C2CBAE40002157B /* Sources */ = {
